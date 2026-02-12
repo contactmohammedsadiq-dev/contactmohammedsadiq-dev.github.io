@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Al-Hidayah Madrasa - Get in touch with us for inquiries and information">
+    <title>Contact Us - Al-Hidayah Madrasa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Al-Hidayah</h1>
+                <p class="arabic-text">الهداية</p>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're Here to Help</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="content-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-card-icon">📍</div>
+                    <h3>Visit Us</h3>
+                    <p>
+                        Al-Hidayah Madrasa<br>
+                        123 Islamic Center Road<br>
+                        Your City, State 12345<br>
+                        United States
+                    </p>
+                    <div class="contact-hours">
+                        <h4>Office Hours:</h4>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM<br>
+                        Saturday: 9:00 AM - 2:00 PM<br>
+                        Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p>
+                        <strong>Main Office:</strong><br>
+                        +1 (555) 123-4567<br><br>
+                        <strong>Admissions:</strong><br>
+                        +1 (555) 123-4568<br><br>
+                        <strong>Emergency:</strong><br>
+                        +1 (555) 123-4569
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">✉️</div>
+                    <h3>Email Us</h3>
+                    <p>
+                        <strong>General Inquiries:</strong><br>
+                        info@alhidayahmadrasa.me<br><br>
+                        <strong>Admissions:</strong><br>
+                        admissions@alhidayahmadrasa.me<br><br>
+                        <strong>Programs:</strong><br>
+                        programs@alhidayahmadrasa.me
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="content-section alternate-bg">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <div class="form-intro">
+                <p>Have a question or need more information? Fill out the form below and we'll get back to you as soon as possible, insha'Allah.</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contactName">Full Name *</label>
+                        <input type="text" id="contactName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address *</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contactPhone">Phone Number</label>
+                        <input type="tel" id="contactPhone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject...</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="admission">Admission Information</option>
+                            <option value="programs">Programs & Courses</option>
+                            <option value="fees">Fees & Payment</option>
+                            <option value="volunteer">Volunteer Opportunities</option>
+                            <option value="donation">Donation Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Please share your question or comment..."></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        Subscribe to our newsletter for updates and announcements
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="reset" class="btn btn-secondary">Clear Form</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Location</h2>
+            <div class="map-placeholder">
+                <div class="map-placeholder-content">
+                    <p>📍</p>
+                    <h3>Map View</h3>
+                    <p>123 Islamic Center Road, Your City, State 12345</p>
+                    <p class="map-note">Interactive map will be integrated here</p>
+                </div>
+            </div>
+            <div class="directions-info">
+                <h3>Directions</h3>
+                <p>
+                    <strong>By Car:</strong> The madrasa is easily accessible from Highway 123. Take Exit 45 
+                    and turn right onto Islamic Center Road. We are located on the left side, approximately 
+                    2 miles from the exit.
+                </p>
+                <p>
+                    <strong>By Public Transport:</strong> Take Bus Route 15 or 22 and get off at the 
+                    "Islamic Center" stop. The madrasa is a short 5-minute walk from the bus stop.
+                </p>
+                <p>
+                    <strong>Parking:</strong> Free parking is available on-site for visitors and students.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are your office hours?</h3>
+                    <p>Our office is open Monday through Friday from 9:00 AM to 5:00 PM, and Saturdays from 9:00 AM to 2:00 PM. We are closed on Sundays.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I schedule a visit?</h3>
+                    <p>You can schedule a visit by calling us at +1 (555) 123-4567 or sending an email to info@alhidayahmadrasa.me. We welcome prospective students and their families to tour our facility.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer online classes?</h3>
+                    <p>Currently, most of our programs are conducted in-person. However, we do offer some online options for specific courses. Please contact us to learn more about online availability.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is financial assistance available?</h3>
+                    <p>Yes, we offer financial assistance to families in need. All requests are handled confidentially. Please speak with our admissions office to discuss available options.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I register for a program?</h3>
+                    <p>You can register online through our <a href="admissions.html">Admissions page</a>, visit our office in person, or call us to request a registration form.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the student-teacher ratio?</h3>
+                    <p>We maintain small class sizes to ensure personalized attention. Our student-teacher ratio varies by program but typically ranges from 5:1 to 15:1.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Al-Hidayah Madrasa</h3>
+                    <p class="arabic-text">الهداية</p>
+                    <p>Guiding Hearts Through Islamic Knowledge</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Islamic Center Road<br>Your City, State 12345</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Email: info@alhidayahmadrasa.me</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Al-Hidayah Madrasa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
