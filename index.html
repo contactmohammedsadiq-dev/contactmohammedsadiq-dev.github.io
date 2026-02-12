@@ -1,13 +1,194 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>factosiem2</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Al-Hidayah Madrasa - Islamic education and Quran memorization center">
+    <meta name="keywords" content="Islamic education, Quran, Hifz, Arabic, Madrasa">
+    <title>Al-Hidayah Madrasa - Islamic Education Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Al-Hidayah</h1>
+                <p class="arabic-text">الهداية</p>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="bismillah">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+            <h1 class="hero-title">Welcome to Al-Hidayah Madrasa</h1>
+            <p class="hero-subtitle">Guiding Hearts Through Islamic Knowledge</p>
+            <p class="hero-description">
+                A center of excellence in Islamic education, Quran memorization, and Arabic language studies
+            </p>
+            <div class="hero-buttons">
+                <a href="admissions.html" class="btn btn-primary">Enroll Now</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="container">
+            <h2 class="section-title">Assalamu Alaikum</h2>
+            <div class="welcome-content">
+                <p>
+                    At Al-Hidayah Madrasa, we are dedicated to providing comprehensive Islamic education 
+                    rooted in the Quran and Sunnah. Our mission is to nurture the minds and hearts of our 
+                    students, helping them develop a strong foundation in their faith while preparing them 
+                    to be righteous, knowledgeable, and productive members of society.
+                </p>
+                <p>
+                    We offer a structured curriculum that includes Quran memorization (Hifz), Islamic studies, 
+                    Arabic language, and moral character development. Our experienced teachers are committed 
+                    to creating a nurturing environment where students can thrive spiritually and academically.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="container">
+            <h2 class="section-title">Explore Our Programs</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📖</div>
+                    <h3>Quran Memorization</h3>
+                    <p>Complete Hifz program with certified instructors using proven memorization techniques.</p>
+                    <a href="programs.html#hifz" class="card-link">Learn More →</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🕌</div>
+                    <h3>Islamic Studies</h3>
+                    <p>Comprehensive Islamic education covering Aqeedah, Fiqh, Seerah, and more.</p>
+                    <a href="programs.html#islamic-studies" class="card-link">Learn More →</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">✍️</div>
+                    <h3>Arabic Language</h3>
+                    <p>Master the Arabic language through structured courses for all levels.</p>
+                    <a href="programs.html#arabic" class="card-link">Learn More →</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Family Programs</h3>
+                    <p>Special programs for different age groups and family learning opportunities.</p>
+                    <a href="programs.html#family" class="card-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prayer Times Section -->
+    <section class="prayer-times">
+        <div class="container">
+            <h2 class="section-title">Prayer Times</h2>
+            <div class="prayer-times-grid">
+                <div class="prayer-time">
+                    <span class="prayer-name">Fajr</span>
+                    <span class="prayer-time-value">5:30 AM</span>
+                </div>
+                <div class="prayer-time">
+                    <span class="prayer-name">Dhuhr</span>
+                    <span class="prayer-time-value">12:45 PM</span>
+                </div>
+                <div class="prayer-time">
+                    <span class="prayer-name">Asr</span>
+                    <span class="prayer-time-value">3:45 PM</span>
+                </div>
+                <div class="prayer-time">
+                    <span class="prayer-name">Maghrib</span>
+                    <span class="prayer-time-value">6:15 PM</span>
+                </div>
+                <div class="prayer-time">
+                    <span class="prayer-name">Isha</span>
+                    <span class="prayer-time-value">7:30 PM</span>
+                </div>
+            </div>
+            <p class="prayer-times-note">* Times are approximate. Please check daily for exact timings.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info-grid">
+                <div class="contact-info-item">
+                    <div class="contact-icon">📍</div>
+                    <h3>Visit Us</h3>
+                    <p>123 Islamic Center Road<br>Your City, State 12345</p>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p>+1 (555) 123-4567<br>Mon-Fri: 9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email Us</h3>
+                    <p>info@alhidayahmadrasa.me<br>admissions@alhidayahmadrasa.me</p>
+                </div>
+            </div>
+            <div class="cta-section">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Al-Hidayah Madrasa</h3>
+                    <p class="arabic-text">الهداية</p>
+                    <p>Guiding Hearts Through Islamic Knowledge</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Islamic Center Road<br>Your City, State 12345</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Email: info@alhidayahmadrasa.me</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Al-Hidayah Madrasa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
